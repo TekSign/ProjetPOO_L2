@@ -12,7 +12,10 @@ public class Casier extends Objet {
      */
     public Casier() {
         super("Il s'agit d'un casier où un stormtrooper mets ses affaires.",
-                "Rien de bien intéressant, seulement les effets personnels du Trooper de garde sûrement, il semble avoir oublié une carte magnétique... A quoi peut-elle bien servir ?",
+                "Rien de bien intéressant, seulement les effets "
+                        + "personnels du Trooper de garde sûrement, il "
+                        + "semble avoir oublié une carte magnétique..."
+                        + " A quoi peut-elle bien servir ?",
                 false, true);
     }
 
@@ -21,7 +24,7 @@ public class Casier extends Objet {
      */
     @Override
     public String effet(final Hero myHero, final String[] tab) {
-        String action = tab[0];
+        final String action = tab[0];
 
         if (action.equals("use")) {
             return "Il n'y a rien à faire avec cette action.";

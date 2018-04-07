@@ -15,13 +15,40 @@ import actions.Use;
  */
 public enum Command {
 
+    /**
+     * .
+     * Commande GO
+     */
     go(new Go()),
+    /**
+     * .
+     * Commande HACK
+     */
     hack(new Hack()),
+    /**
+     * .
+     * Commande HELP
+     */
     help(new Help()),
+    /**
+     * . Commande INVENTORY
+     */
     inventory(new Inventory()),
+    /**
+     * . Commande LOOK
+     */
     look(new Look()),
+    /**
+     * . Commande QUIT
+     */
     quit(new Quit()),
+    /**
+     * . Commande TAKE
+     */
     take(new Take()),
+    /**
+     * . Commande USE
+     */
     use(new Use());
 
     /**

@@ -8,8 +8,8 @@ public class Caisse extends Objet {
      * . Constructeur CAISSE
      */
     public Caisse() {
-        super("Cette caisse renferme probablement des objets importants pour les troopers.",
-                "", false, false);
+        super("Cette caisse renferme probablement "
+                + "des objets importants pour les troopers.", "", false, false);
     }
 
     /**

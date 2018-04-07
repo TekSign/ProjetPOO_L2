@@ -51,7 +51,9 @@ public class Go extends Action {
                 return "Le lieu saisi n'existe pas, veuillez recommencer.";
             }
         } else {
-            return "-Biiiip- Pour utiliser la commande go, vous devez renseigner un lieu -Bip-, comme par exemple : go colline";
+            return "-Biiiip- Pour utiliser la commande go, "
+                    + "vous devez renseigner un lieu -Bip-, "
+                    + "comme par exemple : go colline";
         }
     }
 }

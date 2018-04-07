@@ -12,8 +12,9 @@ public class Casque extends Objet {
      * Constructeur CASQUE
      */
     public Casque() {
-        super("Il y a une inscription sur ce casque de trooper. On peut voir noté 13-12",
-                "", false, false);
+        super("Il y a une inscription sur "
+                + "ce casque de trooper. On peut voir noté 13-12", "", false,
+                false);
     }
 
     /**
